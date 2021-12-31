@@ -7,8 +7,8 @@ layout: default
   <ul style='padding-top: 16px;'>
   
   {% for post in site.tags[page.tag] %}
-    <li><a href="/blog{{ post.url }}">{{ post.title }}</a>, published {{ post.date | date: "%Y-%m-%d" }}
-      <br/>
+    <li><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>, published {{ post.date | date: "%Y-%m-%d" }}
+      <br />
       {{ post.description }}
     </li>
   {% endfor %}
