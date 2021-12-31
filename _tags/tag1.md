@@ -1,4 +1,5 @@
 ---
 layout: tags
-tag-name: tag1
+title: "Tag: tag1"
+tag: tag1
 ---
