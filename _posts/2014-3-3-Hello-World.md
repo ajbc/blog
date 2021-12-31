@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're up and running!
+description: A demo page for testing things out.
 tags: tag1 tag2
 ---
 
